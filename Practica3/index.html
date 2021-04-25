@@ -59,14 +59,35 @@
         }
     </script>
     <div class="contenedor">
-        <form action="">
-        <p>Factorial</p>
-        <input type="text" id="numero">
-        <p></p>
-        <button type="button" class="btn" onclick="factorial()"> calcular</button>
-        <p></p>
-        <label id="texto"></label>
-    </form>
+        <form method="get" name="ejercicio8">
+            <p>Medio</p>
+            INGRESE NUMERO 01 : <input name="n1" type="text" > <br>
+            INGRESE NUMERO 02 : <input name="n2" type="text" > <br>
+            INGRESE NUMERO 03 : <input name="n3" type="text" > <br>
+            <input type="button" value="MOSTRAR" onClick="intermedio()" > <br> <br>
+            EL NUMERO MEDIO ES: <input name="result" Id="result" type="text" > <br>
+        </form>
     </div>
+    <script>
+        function intermedio(){
+    var xn1 = ejercicio8.n1.value;
+    var xn2 = ejercicio8.n2.value;
+    var xn3 = ejercicio8.n3.value;
+    if(xn1 > xn2){
+        medio = xn1;
+        xtem = xn2;
+    }else{
+        medio = xn2;
+        xtem = xn1;
+    }
+    if(medio > xn3){
+        medio = xn3;
+    }
+    if(medio < xtem){
+        medio = xtem;
+    }
+    document.getElementById('result').value=medio;
+    }
+    </script>
 </body>
 </html>
