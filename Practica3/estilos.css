@@ -11,6 +11,7 @@ body {
     color: #cf5c36;
 }
 .contenedor {
+    border-radius: 14px;
     width: 300px;
     margin: 20px;
     background: #eee5e9;
