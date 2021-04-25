@@ -10,23 +10,63 @@
 <body>
     <div class="contenedor">
         <form action="">
-            <p>potencias</p>
+            <p>ParImpar</p>
             <input id="numero1" type="text">
             <p>+</p>
             <input id="numero2" type="text">
             <p>=</p>
             <input id="resultado" type="text" readonly>
-            <input type="button" class="btn" onclick="potencia()" value="resultado">
+            <input type="button" class="btn" onclick="sumar()" value="resultado">
         </form>
     </div>
     <script>
-        function potencia(numero1, numero2)
+        function sumar(numero1, numero2)
         {
             var num1 = parseFloat(document.getElementById('numero1').value);
             var num2 = parseFloat(document.getElementById('numero2').value);
-            var res1 = Math.pow(num1, num2);
+            var res1 = num1 + num2;
             document.getElementById('resultado').value = res1;
+            if(res1 % 2 == 0)
+            {
+                alert('es par');
+            }
+            else
+            {
+                alert('es impar');
+            }
         }
     </script>
+    <div class="contenedor">
+        <form action="">
+        <p>Factorial</p>
+        <input type="text" id="numeroIngresado">
+        <p></p>
+        <button type="button" class="btn" onclick="factorial()"> calcular</button>
+        <p></p>
+        <label id="texto"></label>
+    </form>
+    </div>
+    <script>
+        function factorial()
+        {
+            var numero = document.getElementById('numeroIngresado').value;
+            var res = 1;
+            for (var i=1; i<=numero; i++)
+            {
+                res = res*i;
+            }
+            document.getElementById('texto').innerHTML= 'el factorial del numero ' +numero + ' es:' + res;
+        }
+    </script>
+    <div class="contenedor">
+        <form action="">
+        <p>Factorial</p>
+        <input type="text" id="numero">
+        <p></p>
+        <button type="button" class="btn" onclick="factorial()"> calcular</button>
+        <p></p>
+        <label id="texto"></label>
+    </form>
+    </div>
 </body>
 </html>
