@@ -1,0 +1,106 @@
+
+#icono{
+    float: left;
+}
+
+article {
+    background: rgba(147, 197, 231, 0.842);
+    padding: 20px;
+    margin: 20px 0;
+    color: rgb(12, 12, 12);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family: 'Merriweather Sans';
+    font-size: 21px;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: auto;
+    margin: auto;   
+    padding: auto;
+    
+}
+footer , .fecha {
+    
+    max-width: auto;
+    margin: auto;
+    background: rgba(81, 135, 194, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    -webkit-box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+    box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+    clear: both;
+}
+body{
+    /* imagen ded fondo es aqui */
+    background: url(http://convenioandresbello.org/cab/wp-content/uploads/2020/07/noticia49_bolivia_01.jpg) no-repeat center center fixed;
+    background-size: 100vw 100vh;  
+}
+#logo-titulo{
+    display: block;
+    background-image: url(https://shorthand-social.imgix.net/prod/story/ngN5ggdqmY/media/285bc7707a7311e6ad94fd498cdfb90c/original.jpg?w=1100&h=1100&fit=clip&fm=jpg&q=70&auto=format) ;
+    background-size: 100vw 100vh;  
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 75px;
+    border-radius: 20px;
+    box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
+    opacity: 0.9;
+    
+}
+.img-der{
+    float: left;
+    margin: 20px;
+    max-width: 100%;
+    width: 350px;
+    box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
+    
+}
+.img-izq{
+    float: right;
+    margin: 20px;
+    width: 350px;
+    max-width: 100%;
+    box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
+}
+#logo-cbba{
+    
+    background-image: url(https://shorthand-social.imgix.net/prod/story/ngN5ggdqmY/media/285bc7707a7311e6ad94fd498cdfb90c/original.jpg?w=1100&h=1100&fit=clip&fm=jpg&q=70&auto=format) ;
+    background-size: 100vw 100vh;  
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 75px;
+    border-radius: 20px;
+    box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
+    opacity: 0.9;
+    
+}
+.negrillas{
+    justify-content: center;
+}
+.body-quilla{
+    background-image:url(https://live.staticflickr.com/228/450630872_ceb262769d_b.jpg) ;
+    background-size: 100vw 100vh;
+}
+.body-tiqui{
+    background-image:url(https://4.bp.blogspot.com/-p0_d-ab5zt0/U55V-2eVNRI/AAAAAAAAAnM/paSDBs2U70A/s1600/tiquipaya.jpg) ;
+    background-size: 100vw 100vh;
+}
+.body-vinto{
+    background: url(https://lh3.googleusercontent.com/proxy/g1UMb-CgyxGOs_28n9eoGGv9ZFPk7nB2NVQ3T0lmY_s9QSMisBdQRjlNRAfdS8KSgSPuFyuUEojegkhIYonLJEigmCvsN9yUWBMOh7DVzJQ) no-repeat center center fixed;
+    background-size: 100vw 100vh;
+}
+.body-sac{
+    background-image: url(https://i.pinimg.com/originals/f7/ae/cb/f7aecb9dd6629cbb1ee4687b4e5b51b7.jpg);
+    background-size: 100vw 100vh;
+}
