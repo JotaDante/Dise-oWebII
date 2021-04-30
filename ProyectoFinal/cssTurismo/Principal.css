@@ -44,17 +44,16 @@ body{
 }
 #logo-titulo{
     display: block;
-    background-image: url(https://shorthand-social.imgix.net/prod/story/ngN5ggdqmY/media/285bc7707a7311e6ad94fd498cdfb90c/original.jpg?w=1100&h=1100&fit=clip&fm=jpg&q=70&auto=format) ;
+    background-image: url(https://shorthand-social.imgix.net/prod/story/ngN5ggdqmY/media/285bc7707a7311e6ad94fd498cdfb90c/original.jpg?w=1100&h=1100&fit=clip&fm=jpg&q=70&auto=format);
     background-size: 100vw 100vh;  
     width: 100%;
     max-width: 100%;
     margin: auto;
     text-align: center;
     margin-top: 75px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
-    opacity: 0.9;
-    
+    opacity: 0.9; 
 }
 .img-der{
     float: left;
@@ -62,7 +61,6 @@ body{
     max-width: 100%;
     width: 350px;
     box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
-    
 }
 .img-izq{
     float: right;
@@ -88,19 +86,12 @@ body{
 .negrillas{
     justify-content: center;
 }
-.body-quilla{
-    background-image:url(https://live.staticflickr.com/228/450630872_ceb262769d_b.jpg) ;
+.body-cocha{
+    background-image:url(https://i.pinimg.com/originals/cd/3c/74/cd3c749dfc498d11ed9feb0f063ba61b.jpg) ;
     background-size: 100vw 100vh;
 }
-.body-tiqui{
-    background-image:url(https://4.bp.blogspot.com/-p0_d-ab5zt0/U55V-2eVNRI/AAAAAAAAAnM/paSDBs2U70A/s1600/tiquipaya.jpg) ;
+.body-LaPaz{
+    background-image:url(http://vagamundeando.co/wp-content/uploads/2019/07/1A470775-E243-46E2-B39E-A7AC168C0F3D.jpeg) ;
     background-size: 100vw 100vh;
 }
-.body-vinto{
-    background: url(https://lh3.googleusercontent.com/proxy/g1UMb-CgyxGOs_28n9eoGGv9ZFPk7nB2NVQ3T0lmY_s9QSMisBdQRjlNRAfdS8KSgSPuFyuUEojegkhIYonLJEigmCvsN9yUWBMOh7DVzJQ) no-repeat center center fixed;
-    background-size: 100vw 100vh;
-}
-.body-sac{
-    background-image: url(https://i.pinimg.com/originals/f7/ae/cb/f7aecb9dd6629cbb1ee4687b4e5b51b7.jpg);
-    background-size: 100vw 100vh;
-}
+
