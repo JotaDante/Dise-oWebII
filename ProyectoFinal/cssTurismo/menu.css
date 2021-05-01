@@ -46,7 +46,7 @@ border-radius: 5px;
 	display: block;
 }
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 66.5em) {
 	.navigation {
 		display: flex;
 	}

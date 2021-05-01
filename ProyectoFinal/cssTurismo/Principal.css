@@ -5,6 +5,7 @@
 
 article {
     background: rgba(147, 197, 231, 0.842);
+    border-radius: 15px;
     padding: 20px;
     margin: 20px 0;
     color: rgb(12, 12, 12);
@@ -94,4 +95,19 @@ body{
     background-image:url(http://vagamundeando.co/wp-content/uploads/2019/07/1A470775-E243-46E2-B39E-A7AC168C0F3D.jpeg) ;
     background-size: 100vw 100vh;
 }
-
+.body-Santa{
+    background-image:url(https://itabus.com.bo/imagen/rutas/f4e0c1903a9afea2cc10f6c268ccd167.jpg) ;
+    background-size: 100vw 100vh;
+}
+.body-Pando{
+    background-image:url(https://www.opinion.com.bo/media/opinion/images/2021/03/30/2021033021105822258.jpg) ;
+    background-size: 100vw 100vh;
+}
+.body-Beni{
+    background-image:url(https://www.radiofides.com/es/wp-content/uploads/2019/02/trinihm8.jpg) ;
+    background-size: 100vw 100vh;
+}
+.body-Oruro{
+    background-image:url(https://www.idencityconsulting.com/wp-content/uploads/2017/06/Oruro.jpg) ;
+    background-size: 100vw 100vh;
+}
