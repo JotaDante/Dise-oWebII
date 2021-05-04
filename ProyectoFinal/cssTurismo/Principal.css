@@ -69,6 +69,9 @@ body{
     max-width: 100%;
     box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
 }
+.img-gale{
+    width: 300px;
+}
 #logo-cbba{
     
     background-image: url(https://shorthand-social.imgix.net/prod/story/ngN5ggdqmY/media/285bc7707a7311e6ad94fd498cdfb90c/original.jpg?w=1100&h=1100&fit=clip&fm=jpg&q=70&auto=format) ;
