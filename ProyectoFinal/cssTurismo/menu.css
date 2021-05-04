@@ -38,7 +38,6 @@ border-radius: 5px;
 	text-decoration: none;
 }
 .navigation a:hover {
-	width: 200px;
 	border-radius: 10px;
 	color: rgb(231, 0, 0);
 	background-color: rgb(3, 55, 114);
